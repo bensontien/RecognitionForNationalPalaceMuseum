@@ -1,0 +1,15 @@
+{
+  "DataSet": {
+    "URL":"https://(www.thenewslens.com OR everylittled.com)/article/  OR  https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=",
+    "ArticleCorpus": "dst/CorpusData/YOUR DATA SET",
+    "NPMCorpus": "/dst/CorpusData/YOUR DATA SET",
+    "Quantity": 1000
+  },
+  "Article":{
+    "ID":"The ID Number You Want To Start",
+    "TYPE":"The Article Type You Want To Find"
+  },
+  "NPM":{
+    "ID":"The ID Number You Want To Start"
+  }
+}

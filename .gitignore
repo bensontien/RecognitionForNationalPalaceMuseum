@@ -1,0 +1,12 @@
+### PyCharm ###
+.idea/
+.idea_modules/
+
+### Python ###
+__pycache__/
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+

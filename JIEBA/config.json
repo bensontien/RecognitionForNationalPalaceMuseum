@@ -1,0 +1,8 @@
+{
+  "DataSet": {
+    "ArticleCorpus": "dst/CorpusData/Artile_everyLittleDdata.csv",
+    "NPMCorpus": "dst/CorpusData/NPM_data.csv",
+    "ArticleCorpus_seg":"dst/JiebaSegData/Artile_everyLittleDdata_seg.txt",
+    "NPMCorpus_seg":"dst/JiebaSegData/NPM_data_seg.txt"
+  }
+}

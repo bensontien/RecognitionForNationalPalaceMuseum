@@ -1,0 +1,8 @@
+{
+  "DataSet": {
+    "ArticleCorpus": "dst/CorpusData/YOUR DATA SET",
+    "NPMCorpus": "dst/CorpusData/YOUR DATA SET",
+    "ArticleCorpus_seg":"dst/JiebaSegData/YOUR SEGMENT DATA SET",
+    "NPMCorpus_seg":"dst/JiebaSegData/YOUR SEGMENT DATA SET"
+  }
+}
