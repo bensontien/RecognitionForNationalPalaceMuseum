@@ -1,0 +1,37 @@
+***說明文件***
+
+*[原始的資料夾結構]*
+.
+├─ README.md
+├─ docs
+│   └─ 使用說明.txt
+├─ dst
+│   ├─ CorpusData
+│   ├─ JiebaSegData
+│   └─ W2VData
+├─ spider
+│   ├─ Articles.py
+│   ├─ NationalPalaceMuseumForOpendata.py
+│   └─ config.sample.json
+├─ JIEBA
+│   ├─ jieba_forEverylittleD.py
+│   ├─ jieba_forNPM.py
+│   ├─ dict.txt.big
+│   ├─ stop_words.txt
+│   └─ config.sample.json
+└─ W2V
+     ├─ project_wiki_append.py
+     ├─ project_w2v_training.py
+     ├─ project_w2v_load_batch_averageVector_forArticles.py
+     ├─ project_w2v_load_batch_averageVector _forNPM.py
+     ├─ project_DistanceCaculator.py
+     └─ config.sample.json
+
+
+*[執行的步驟]*
+
+1.在dst建立所需csv與txt檔(或可直接使用Default的)
+2.設定各功能內Config，包含路徑、參數......等等
+3.使用Spider爬取文章與故宮Opendata資料
+4.使用JIEBA替Corpus斷詞
+5.使用W2V訓練詞向量，並分別計算出文章與故宮文物的平均詞向量，並取相似度，得到相似度排行
