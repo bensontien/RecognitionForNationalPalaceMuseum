@@ -10,3 +10,6 @@ __pycache__/
 .AppleDouble
 .LSOverride
 
+### RecognitionForNationalPalaceMuseum ###
+/config.json
+
