@@ -14,3 +14,8 @@ __pycache__/
 JIEBA/config.json
 spider/config.json
 W2V/config.json
+
+### Default Data Set ###
+dst/CorpusData/
+dst/JiebaSegData/
+dst/W2VData/
