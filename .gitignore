@@ -16,5 +16,10 @@ spider/config.json
 W2V/config.json
 
 ### Default Data Set ###
-dst/**/*.csv
-dst/**/*.txt
+dst/**/Artile_everyLittleDdata.csv
+dst/**/NPM_data.csv
+dst/**/Article_everyLittleDdata_seg.txt
+dst/**/NPM_data_seg.txt
+dst/**/Article_averageWordvector.csv
+dst/**/NPM_averageWordvector.csv
+dst/**/Similarity_Result.csv

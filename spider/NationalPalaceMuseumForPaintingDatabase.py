@@ -16,7 +16,7 @@ def main():
 
         url = config['DataSet']['URL'] + dataURLnum 
         
-        time.sleep(2.5)
+        time.sleep(1)
         
         try:
             html = requests.get(url)
