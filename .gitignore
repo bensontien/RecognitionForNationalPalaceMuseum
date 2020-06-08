@@ -16,5 +16,5 @@ spider/config.json
 W2V/config.json
 
 ### Default Data Set ###
-dst/*.csv
-dst/*.txt
+dst/**/*.csv
+dst/**/*.txt
