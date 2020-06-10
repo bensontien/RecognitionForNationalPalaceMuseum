@@ -16,12 +16,13 @@ def main():
 
         url = config['DataSet']['URL'] + dataURLnum 
         
-        time.sleep(1)
+        time.sleep(0.5)
         
         try:
             html = requests.get(url)
         except:
-            time.sleep(10)
+            time.sleep(5)
+            print("Failed,Retry after 5s.")
             continue
 
         print("Page Downloading...")
