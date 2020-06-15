@@ -31,7 +31,10 @@ def main():
 
             print("Page Download Sucessful")
 
-            objSoup = bs4.BeautifulSoup(html.text, 'lxml')
+            try:
+                objSoup = bs4.BeautifulSoup(html.text, 'lxml')
+            except:
+                continue    
             
             #品名與釋文
             datatable1 = objSoup.find_all("table", class_="table_list")
