@@ -5,6 +5,9 @@
 ### Python ###
 __pycache__/
 
+### vscode ###
+launch.json
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
@@ -18,8 +21,11 @@ W2V/config.json
 ### Default Data Set ###
 dst/**/Artile_everyLittleDdata.csv
 dst/**/NPM_data.csv
+dst/**/NPM_data_PaintingDB.csv
+dst/**/NPM_data_PaintingDB_withoutURL.csv
 dst/**/Article_everyLittleDdata_seg.txt
 dst/**/NPM_data_seg.txt
+dst/**/NPM_data_PaintingDB.txt
 dst/**/Article_averageWordvector.csv
 dst/**/NPM_averageWordvector.csv
 dst/**/Similarity_Result.csv

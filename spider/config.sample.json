@@ -1,6 +1,6 @@
 {
   "DataSet": {
-    "URL":"https://(www.thenewslens.com OR everylittled.com)/article/  OR  https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=",
+    "URL":"https://(www.thenewslens.com OR everylittled.com)/article/  OR  https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo= OR http://painting.npm.gov.tw/Painting_Page.aspx?dep=P&PaintingId=",
     "ArticleCorpus": "dst/CorpusData/YOUR DATA SET",
     "NPMCorpus": "/dst/CorpusData/YOUR DATA SET",
     "Quantity": 1000
